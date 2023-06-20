@@ -4,10 +4,9 @@ plugins {
     id 'kotlin-kapt'
     id 'dagger.hilt.android.plugin'
     id 'kotlin-parcelize'
-    id "org.sonarqube" version "3.4.0.2513"
     id 'org.jetbrains.kotlin.android'
+    id 'org.sonarqube' version "4.2.1.3168"
 }
-
 android {
     compileSdk 33
 
@@ -104,6 +103,14 @@ android {
         language{
             enableSplit = false
         }
+    }
+}
+
+sonarqube {
+    properties {
+        property "sonar.projectKey", "Hariharan27_ncd_open_source"
+        property "sonar.organization", "hariharan"
+        property "sonar.host.url", "https://sonarcloud.io"
     }
 }
 

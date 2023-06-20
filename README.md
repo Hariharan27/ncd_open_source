@@ -1,5 +1,6 @@
-# SPICE-Android
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Medtronic-LABS_spice-android&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Medtronic-LABS_spice-android)
 
+# SPICE-Android
 
 ## Prerequisite
 - To bring up the Spice backend server, there are a few prerequisites that need to be completed. Please follow the instructions provided in this [link](https://github.com/Medtronic-LABS/spice-server.git). Once you have completed the steps, you will get a ***SERVER URL*** to use in our Application.
@@ -322,8 +323,6 @@ You can install an Android emulator in Android Studio by following these steps:
 After starting the emulator, you can install your app on it by running your project in Android Studio and selecting the emulator as the deployment target.
 If you want to run apps on a hardware device,[follow the instructions.](https://developer.android.com/studio/run/device)
 
-### Future Enhancement
-- Provide Bangla Language support for all user roles.
 
 This is the client-side application for SPICE, designed to help track hypertensive and diabetic patients across a population.
 This repository contains the full android setup for the application. Please refer the SPICE webpage using the following URL:
